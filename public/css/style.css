@@ -1,0 +1,36 @@
+.img{
+	background-image: url(../img/lapada.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.img{
+	width: 100%;
+	height: 500px;
+	text-align: center;
+}
+.img h1{
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+.img p{
+	color:#fff;
+	margin-bottom: 30px;
+}
+.img input[type='button']{
+	color:#fff;
+	border:none;
+	border:2px solid #fff;
+	padding: 10px 20px;
+	background-color: transparent;
+	cursor: pointer;
+	transition: .3s;
+}
+.img input[type='button']:hover{
+	color: #000;
+	background-color: #fff;
+}
+.cont{
+	position: absolute;
+	top:10%;
+	left: 10%;
